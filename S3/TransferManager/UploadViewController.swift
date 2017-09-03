@@ -16,7 +16,7 @@ class UploadViewController: UIViewController, UIImagePickerControllerDelegate,UI
     
     let picker = UIImagePickerController()
     let transfermanager = AWSS3TransferManager.default()
-    let S3BucketName = "codebean-s3-sample"
+    let S3BucketName = "ADD YOUR BUCKET NAME HERE"
 
     var localPath: URL!
     var selectedImage: UIImage!{
