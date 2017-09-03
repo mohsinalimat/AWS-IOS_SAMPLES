@@ -1,4 +1,4 @@
-# Unauthorized federated identies
+# Unauthorized federated identites
 
 ## Setup
 1. Sign into AWS and go to https://console.aws.amazon.com/cognito/
