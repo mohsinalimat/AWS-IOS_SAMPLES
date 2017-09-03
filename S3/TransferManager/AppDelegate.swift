@@ -14,7 +14,7 @@ import AWSCore
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    let identityID = "us-east-1:0abd1bdc-8a9c-4653-8947-7e0b7b4ab17f"
+    let identityID = "ADD YOUR IDENTITY ID HERE THIS CAN BE FOUND IN COGNITO"
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
