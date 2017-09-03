@@ -23,8 +23,8 @@ class DownloadViewController: UIViewController {
         let downloadingFileURL = URL(fileURLWithPath: NSTemporaryDirectory()).appendingPathComponent("temp.jpg")
         
         if let downloadRequest = AWSS3TransferManagerDownloadRequest(){
-            downloadRequest.bucket = "codebean-s3-sample"
-            downloadRequest.key = "impossibly-cute-puppy-21.jpg"
+            downloadRequest.bucket = "ADD YOUR BUCKET HERE"
+            downloadRequest.key = "ADD YOUR BUCKET KEY HERE (PHOTO NAME)"
             downloadRequest.downloadingFileURL = downloadingFileURL
             
             transferManager.download(downloadRequest).continueWith(executor: AWSExecutor.default(), block: { (task: AWSTask<AnyObject>) -> Any? in
