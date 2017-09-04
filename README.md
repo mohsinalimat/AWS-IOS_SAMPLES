@@ -1,16 +1,16 @@
 # AWS-IOS_SAMPLES
 AWS Samples in Swift 3 
 ***
-### Cognito 
+## Cognito 
 Amazon Cognito Identity provides secure access to AWS services. 
 ***
-### S3
+## S3
 Amazon Simple Storage Service provides flexible object storage. 
 
-#### Examples include:
+## Examples include:
 TransferManager and TransferUtility
 
-##### TransferManager vs TransferUtility
+### TransferManager vs TransferUtility
 The differences are as follows.
 
 Use `TransferUtility` to:
