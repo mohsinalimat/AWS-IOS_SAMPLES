@@ -1,4 +1,4 @@
-# AWS-IOS_SAMPLES
+# Amazon Web Service iOS SAMPLES
 AWS Samples in Swift 3 
 ***
 ## Cognito 
