@@ -6,7 +6,7 @@ Amazon Cognito Identity provides secure access to AWS services.
 ***
 ## S3
 Amazon Simple Storage Service provides flexible object storage. 
-
+***
 ## Examples include:
 TransferManager and TransferUtility
 
