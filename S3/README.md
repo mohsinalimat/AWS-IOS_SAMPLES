@@ -1,4 +1,4 @@
-##Should I Use TransferManager or TransferUtility?
+## Should I Use TransferManager or TransferUtility?
 
 Both the Amazon S3 TransferManager and TransferUtitliy classes make it easy for you to upload and download files from Amazon S3 while optimizing for performance and reliability. Both hide the complexity of making asynchronous file transfers behind simple APIs. Both provide the ability to pause, resume, and cancel file transfers.
 
